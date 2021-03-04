@@ -1,0 +1,15 @@
+.reply{
+    display:flex;
+    justify-content: baseline;
+    margin-left:.5rem;
+}
+.reply__image{
+    width:2.5rem;
+    height:2.5rem;
+    margin-right:.5rem;
+}
+.reply__image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}

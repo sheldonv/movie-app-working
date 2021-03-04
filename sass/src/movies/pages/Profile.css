@@ -1,0 +1,38 @@
+.profile{
+    display:flex;
+    justify-content: center;
+    padding:2rem;
+}
+.profile__form{
+    border:1px solid grey;
+    padding: 2rem;
+    width:80%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile__image{
+    width:8rem;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 1rem;
+} 
+.profile__image img{ 
+    width:100%;
+    object-fit:cover;
+}
+.profile__info{
+    width:70%;
+}
+.profile__category{
+    display:inline-block;
+    margin-left:1rem;
+    margin-right:.5rem;
+}
+.button__div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

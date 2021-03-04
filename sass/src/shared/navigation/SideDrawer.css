@@ -1,0 +1,31 @@
+.side-drawer{
+    position:fixed;
+    top:0;
+    left:0;
+    width:70%;
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    z-index: 200;
+    align-items:center;
+    justify-content:center;
+}
+.side-drawer-enter{
+    opacity:0;
+    transform:translateX(-100%)
+}
+.side-drawer-enter-active{
+    opacity:1;
+    transform:translateX(0);
+    transition: all .2s ease-in-out;
+}
+.side-drawer-exit{
+    opacity:1;
+    transform:translateX(0%);
+}
+.side-drawer-exit-active{
+    opacity:0;
+    transform:translateX(-100%);
+    transition: all .2s ease-in-out;
+}

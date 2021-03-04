@@ -1,0 +1,109 @@
+.actor-page{
+    width:100%;
+    min-width:17.5rem;
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    
+    
+}
+.actor-page__image{
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    background-color:#121212;
+}
+.actor-page__image img{
+    width:100%;
+    border:none;
+    outline:none;
+    box-shadow:none;
+}
+.actor-page__name{
+  height: 4rem;
+  line-height: 4rem;
+  margin-left: 1rem;
+  vertical-align:center;
+  font-weight: 600;
+  font-size:2.5rem;
+}
+.actor-page__department{
+    height:2rem;
+    line-height: 2rem;
+    margin-left:1rem;
+    font-weight:400;
+    vertical-align:center;
+    margin-bottom:.6rem;
+    margin-top: -.7rem;
+}
+.actor-carousel{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.arrows{
+    position:absolute;
+    font-size:5rem;
+}
+.actor-profile{
+    display:flex;
+    align-items:stretch;
+    position:relative;
+    justify-content:space-around;
+    border-bottom:1px solid rgba(216, 209, 209, 0.089);
+}
+.actor-profile__image{
+    width:8rem;
+    min-width:8rem;
+    display:flex;
+    margin:1rem;
+}
+.actor-profile__image img{
+    width:100%;
+    object-fit: cover;
+}
+.profile-info{
+    margin:1rem 1rem 1rem 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:1rem 0 2rem 0;
+    
+}
+.actor-photos{
+    padding: 1rem;
+    border-bottom:1px solid rgba(216, 209, 209, 0.089);
+}
+.profile-pic{
+    width:8rem;
+    min-width:8rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-pic img{
+    width:100%;
+    object-fit:cover;
+}
+.profile-pic:not(:last-child){
+    margin-right:1rem;
+}
+.profile-pic__carousel{
+    display:flex;
+    align-items: center;
+    width:100%;
+    overflow:scroll;
+    overflow-y: hidden;
+}
+.actor-social{
+    margin:1rem;
+}
+.actor-socal span{
+    
+}
+.icon{
+    font-size:6rem;
+    margin-right: 1rem;
+    color:purple;
+}

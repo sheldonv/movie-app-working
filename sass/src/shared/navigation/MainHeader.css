@@ -1,0 +1,17 @@
+.main-header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    color:#f638dc;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#121212;
+    height:4rem;
+    text-align:center;
+    z-index:150;
+    box-shadow: 0 0 0 1px rgba(128, 0, 128, 0.603);
+    padding: 0 1rem 0 1rem;
+    
+}

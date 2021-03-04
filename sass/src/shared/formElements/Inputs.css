@@ -1,0 +1,13 @@
+.input_search{
+    top:0;
+    left:0;
+    display:inline-block;
+    outline: none;
+    border-radius: 2px;
+    border:none;
+    width:100%;
+    height:4rem;
+    padding:1rem;
+    align-self:stretch;
+    flex-grow:1;
+}

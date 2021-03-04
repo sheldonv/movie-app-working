@@ -1,0 +1,11 @@
+.nav-links a:visited,
+.nav-links a:link{
+    text-decoration: none;
+    color:white;
+}
+.nav-links a:active,
+.nav-links a.active,
+.nav-links a:hover{
+    background-color: rebeccapurple;
+    color:blue;
+}

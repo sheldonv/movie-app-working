@@ -1,0 +1,118 @@
+.movie-page__main-image{
+    width:100%;
+    margin:0 auto;
+
+    
+}
+.movie-page__main-image img{
+    width:100%;
+    object-fit:cover;
+}
+.movie-page__videos{
+    width:100%;
+    display:flex;
+    
+    overflow-y:hidden;
+    padding:0;
+    margin:0;
+    margin-right:1rem;
+}
+.movie-page__videos::-webkit-scrollbar{
+    scrollbar-width:5px;
+}
+.movie-title{
+    display:block;
+    font-weight:400;
+    margin:.5rem 0 0 1rem;
+}
+.movie-page__main-image{
+   display:flex;
+   flex-direction:column;
+}
+.movie-page{
+    width:100%;
+    margin:0 auto;
+    background-color:#121212;
+    border-radius:3px;
+    overflow:hidden;
+}
+.movie-page__info{
+    color:rgb(119, 100, 100);
+    padding:0 1rem 0 1rem;
+    margin-bottom: .5rem;
+}
+.movie-page__info-wrapper{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+
+}
+.movie-page__tagline{
+    font-size:1rem;
+    text-align:center;
+    font-weight: 400;
+    color:white;
+}
+.rating-icon{
+    font-size: .7rem;
+    margin-right:.2rem;
+}
+.movie-page__info-bar{
+    display:flex;
+    align-items:center;
+    font-weight:400;
+    font-size: 1.2rem;
+    padding: -1rem;
+}
+.movie-page__info-bar span{
+    display:inline-block;
+}
+.movie-page__info-bar span:not(:last-child){
+    border-right: 1px solid rgba(128, 128, 128, 0.288);
+    padding-right: 1rem;
+}
+.movie-page__info-bar span:not(:first-child){
+    padding-left: 1rem;
+}
+.movie-page__info-bar a{
+    text-decoration: none;
+}
+.movie-page__rating{
+    color:#d1e70a;
+    display:flex;
+    align-items:center;
+}
+.comments-wrapper{
+    
+}
+.comment-handler{
+    padding-left:1rem;
+}
+.videos{
+    width:95%;
+    margin: 0 1rem 0 1rem;
+    overflow: hidden;
+    padding-top:1rem;
+}
+.credits{
+    margin: 0 1rem 0 1rem;
+}
+.movie-release{
+    font-size:1.3rem;
+    font-weight: 300;
+    opacity: .4;
+}
+.movie-profile{
+    padding: 1rem 0 0 1rem;
+    display:flex;
+    flex-direction: row; 
+}
+.movie-profile__image{
+    width: 8rem;
+    min-width: 8rem;
+    padding-right: 1rem;
+}
+.movie-profile__image img{
+    width: 100%;
+}
+.comments-wrapper{
+    padding-left:1rem;
+}

@@ -1,0 +1,33 @@
+.movie-item{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    &__image{
+        width:15rem;
+        height:100%;
+        overflow:hidden;
+        img{
+            width:100%;
+            object-fit:cover;
+        }
+    }
+}
+.movie-item:not(:last-child){
+    margin-right:1rem;
+}
+.movie-item__title{
+    background-color:rgb(26,26,26);
+    position:relative;
+    top:-0.4rem;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.movie-item a:link,
+.movie-item a:visited{
+    text-decoration:none;
+    color:white;
+    font-size:1.5rem;
+    font-weight:400;
+}

@@ -1,0 +1,24 @@
+.cast-member__image{
+    width:4rem;
+    margin-right:1rem;
+}
+.cast-member__image img{
+    width:100%;
+}
+.cast-member{
+    display:flex;
+    align-items:center;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: .1rem;
+    cursor:pointer;
+}
+.cast-member__name{
+    font-weight: 400;
+}
+.left{
+    left:0;
+}
+.right{
+    right:0;
+
+}
